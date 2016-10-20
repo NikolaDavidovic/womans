@@ -1,1 +1,3 @@
-<?php echo "Hello madafaka"; ?>
+<?php echo "Hello madafaka"; 
+echo "konflikt";
+?>
