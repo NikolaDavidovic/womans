@@ -56,3 +56,9 @@ body {
     font-size: 18px;
     margin-left: 280px;
 }
+
+.ui-keyboard.center-block.dropdown-menu.ui-keyboard-has-focus {
+    width: 635px;
+    margin-top: 378px;
+    margin-left: 219px;
+}

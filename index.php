@@ -11,6 +11,7 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/keyboard.css">
     </head>
     <body>
         <div class="header">
@@ -61,5 +62,37 @@ and open the template in the editor.
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/keyboard.js"></script>
+        <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="js/jquery.keyboard.extension-typing.js"></script>
+        
+        <script>
+            $('.newsletter').keyboard({
+                layout: 'qwerty',
+                css: {
+                    // input & preview
+                    input: 'form-control input-sm',
+                    // keyboard container
+                    container: 'center-block dropdown-menu', // jumbotron
+                    // default state
+                    buttonDefault: 'btn btn-default',
+                    // hovered button
+                    buttonHover: 'btn-primary',
+                    // Action keys (e.g. Accept, Cancel, Tab, etc);
+                    // this replaces "actionClass" option
+                    buttonAction: 'active',
+                    // used when disabling the decimal button {dec}
+                    // when a decimal exists in the input area
+                    buttonDisabled: 'disabled'
+                }
+            })
+// activate the typing extension
+                    .addTyping({
+                        showTyping: true,
+                        delay: 50
+                    });
+                    
+                    
+        </script>
     </body>
 </html>
