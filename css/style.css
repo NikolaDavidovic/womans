@@ -1,0 +1,19 @@
+body {
+    width: 1080px;
+    height: 1920px !important;
+    /*overflow: hidden;*/
+}
+
+.footer {
+    background: #5E2E85;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    width: 1080px;
+    bottom: 0;
+    position: fixed;
+}
+
+.pages {
+    cursor: pointer;
+}
