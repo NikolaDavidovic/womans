@@ -1,6 +1,7 @@
 body {
     width: 1080px;
     height: 1920px !important;
+    background: #ECE5F2 !important;
     /*overflow: hidden;*/
 }
 
@@ -16,4 +17,42 @@ body {
 
 .pages {
     cursor: pointer;
+}
+
+.sponsors-img {
+    width: 533px;
+    height: 234px;
+}
+
+.left-img {
+    width: 525px;
+    height: 234px;
+}
+
+.header {
+    margin-bottom: 1px;
+}
+
+.homepage-logo {
+    z-index: 10;
+    margin-top: -811px;
+    margin-left: 25px;
+}
+
+.newsletter {
+    margin-top: -200px;
+    position: absolute;
+    z-index: 10;
+    width: 40% !important;
+    margin-left: 220px !important;
+    border: 1px solid #5E2E85 !important;
+}
+
+.header-text {
+    margin-top: -150px;
+    position: absolute;
+    z-index: 10;
+    color: #5E2E85; 
+    font-size: 18px;
+    margin-left: 280px;
 }
