@@ -7,7 +7,6 @@ body {
 
 .footer {
     background: #5E2E85;
-    width: 100%;
     color: #fff;
     font-size: 14px;
     width: 1080px;
@@ -61,4 +60,24 @@ body {
     width: 635px;
     margin-top: 378px;
     margin-left: 219px;
+}
+
+.map-wrapper {
+    width: 1080px;
+}
+
+.map-wrapper h4 {
+    color: #5e2e85;
+    margin-left: 27px;
+}
+
+.map-wrapper .area-links {
+    list-style: none;
+    padding: 25px;
+}
+
+.map-wrapper .area-links li {
+    padding: 0px;
+    margin: 2px;
+    cursor: pointer;
 }
