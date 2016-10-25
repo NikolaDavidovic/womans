@@ -11,3 +11,11 @@
     </head>
     <body>
         <!----------------------PAGE CONTENT------------------------->
+        <div class="header">
+            <a href="index.php">
+                <img src="img/header.jpg" alt="header"/>
+                <img src="img/logo.png" alt="logo" class="homepage-logo"/>
+            </a>
+            <input type="email" class="form-control newsletter"/>
+            <p class="header-text"> PRESS THE TEXT BOX AND A KEYBOARD WILL APPEAR </p>
+        </div>

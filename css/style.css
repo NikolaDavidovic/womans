@@ -1,7 +1,7 @@
 body {
     width: 1080px;
     height: 1920px !important;
-    background: #ECE5F2 !important;
+    background: #D6C7E3 !important;
     /*overflow: hidden;*/
 }
 
@@ -118,4 +118,31 @@ body {
     cursor: pointer;
     margin: 15px;
     text-decoration: underline;
+}
+
+.slider-img {
+    margin-left: 265px;
+}
+
+.sponsors-full {
+    width: 400px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+}
+
+.speakers {
+    width: 200px;
+    height: 295px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.speakers-name {
+    font-size: 18px;
+}
+
+.modal-content {
+    text-align: center;
+    background: #D6C7E3 !important;
+    margin-top: 200px !important;
 }
