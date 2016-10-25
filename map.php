@@ -1,6 +1,12 @@
 <?php require_once 'header.php'; ?>
 
+<p id="scroll_to_map" class="fast_scroll">Scroll to the map</p>
+
 <div class="map-wrapper">
+    
+    <input type="text" id="company_search_input" placeholder="Search here by company name..." />
+    <small>(after you type in a name, click outside of the box to start searching)</small>
+    
     <?php
     $sql = "SELECT * FROM company";
     $result = mysqli_query($conn, $sql);
@@ -9,6 +15,8 @@
     if ($num_rows > 0) {
         $i = 0;
         $x = ceil($num_rows / 3);
+        echo '<div class="links-wrapper">';
+        echo '<span>' . $num_rows . ' companies found.</span>';
         echo '<ul class="area-links">';
         while ($row = mysqli_fetch_assoc($result)) {
             if($i == $x) {
@@ -20,11 +28,14 @@
             $i++;
         }
         echo '</ul>';
+        echo '</div>';
     } else {
         echo "<p>There is no companies stored in database.</p>";
     }
     ?>
-
+    
+    <p id="scroll_to_search" class="fast_scroll">Scroll to the searchbox</p>
+    
     <h4>&nbsp;</h4>
     <img id="map-img" class="map" src="img/map.jpg" usemap="#map" width="1080" height="577" orgWidth="1686" orgHeight="900" alt="map-img" />
 

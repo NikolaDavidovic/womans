@@ -64,6 +64,7 @@ body {
 
 .map-wrapper {
     width: 1080px;
+    padding: 15px;
 }
 
 .map-wrapper h4 {
@@ -73,7 +74,7 @@ body {
 
 .map-wrapper .area-links {
     list-style: none;
-    padding: 25px;
+    padding: 10px;
     display: inline-table;
     width: 33%;
 }
@@ -86,7 +87,7 @@ body {
 
 .map-wrapper #company_search_input {
     display: block;
-    margin: 25px 25px 3px 25px;
+    margin: 0;
     background: #ffeff6 none repeat scroll 0 0;
     border: 1px solid #ffc2dc;
     border-radius: 3px;
@@ -101,7 +102,20 @@ body {
 
 .map-wrapper small {
     display: block;
-    padding-left: 32px;
+    margin-left: 5px;
     color: gray;
     font-size: 10px;
+}
+
+.map-wrapper .links-wrapper > span {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.fast_scroll {
+    color: #5e2e85;
+    cursor: pointer;
+    margin: 15px;
+    text-decoration: underline;
 }

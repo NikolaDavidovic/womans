@@ -14,6 +14,7 @@
         <script type="text/javascript" src="js/jquery.keyboard.extension-typing.js"></script>
         <script type="text/javascript" src="js/maphilight.js"></script>
         <script type="text/javascript" src="js/maphilight-trigger.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
     </body>
 </html>
 
