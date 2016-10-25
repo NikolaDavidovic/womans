@@ -8,7 +8,7 @@
     <small>(after you type in a name, click outside of the box to start searching)</small>
     
     <?php
-    $sql = "SELECT * FROM company";
+    $sql = "SELECT * FROM company where booths in ('1650', '1554', '1550', '1451', '753', '1051')";
     $result = mysqli_query($conn, $sql);
 
     $num_rows = mysqli_num_rows($result);
