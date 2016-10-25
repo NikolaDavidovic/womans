@@ -20,7 +20,7 @@
     </div>
 
     <div class="col-md-6 pages"> 
-        <a href="#">
+        <a href="map.php">
             <img src="img/mapping.jpg" class="left-img" alt="speakers"/>
         </a>
     </div>
