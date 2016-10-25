@@ -3,12 +3,13 @@
 <p id="scroll_to_map" class="fast_scroll">Scroll to the map</p>
 
 <div class="map-wrapper">
-    
+
     <input type="text" id="company_search_input" placeholder="Search here by company name..." />
     <small>(after you type in a name, click outside of the box to start searching)</small>
-    
+
     <?php
-    $sql = "SELECT * FROM company where booths in ('1650', '1554', '1550', '1451', '753', '1051')";
+
+    $sql = "SELECT * FROM company where booths in ('1650', '1554', '1550', '1451', '753', '1051', '329,331,333')";
     $result = mysqli_query($conn, $sql);
 
     $num_rows = mysqli_num_rows($result);
@@ -19,12 +20,16 @@
         echo '<span>' . $num_rows . ' companies found.</span>';
         echo '<ul class="area-links">';
         while ($row = mysqli_fetch_assoc($result)) {
-            if($i == $x) {
+            if ($i == $x) {
                 echo '</ul>';
                 echo '<ul class="area-links">';
                 $x = $x * 2;
             }
-            echo "<li data-area='area" . $row['booths'] . "'><span>" . $row['name'] . "</span><span style='display:none;'>". $row['booths'] . "</span></li>";
+            $booths = '';
+            foreach (explode(',', $row['booths']) as $b) {
+                $booths .= "#area" . $b . ", ";
+            }
+            echo "<li data-area='" . rtrim($booths, ", ") . "'><span>" . $row['name'] . "</span><span style='display:none;'>" . $row['booths'] . "</span></li>";
             $i++;
         }
         echo '</ul>';
@@ -33,9 +38,9 @@
         echo "<p>There is no companies stored in database.</p>";
     }
     ?>
-    
+
     <p id="scroll_to_search" class="fast_scroll">Scroll to the searchbox</p>
-    
+
     <h4>&nbsp;</h4>
     <img id="map-img" class="map" src="img/map.jpg" usemap="#map" width="1080" height="577" orgWidth="1686" orgHeight="900" alt="map-img" />
 
@@ -46,6 +51,10 @@
         <area id="area1451" title="" href="" shape="rect" coords="265,33,283,51" />
         <area id="area753" title="" href="" shape="rect" coords="685,33,703,51" />
         <area id="area1051" title="" href="" shape="rect" coords="533,33,570,51" />
+        <area id="area329" title="" href="" shape="rect" coords="896,244,915,262"/>
+        <area id="area331" title="" href="" shape="rect" coords="896,225,914,243"/>
+        <area id="area333" title="" href="" shape="rect" coords="896,206,914,224"/>
+
     </map>
 </div>
 

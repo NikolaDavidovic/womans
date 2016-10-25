@@ -9,7 +9,7 @@ function bindClickEventOverLinks() {
         }, 1000);
         $('.map-wrapper h4').text($(this).text() + " (" + $(this).parent().find(":last-child").text() + ")");
         $('[id^="area"]').mouseout();
-        $("#" + $(this).parent().data('area')).mouseover();
+        $($(this).parent().data('area')).mouseover();
     });
 }
 bindClickEventOverLinks();

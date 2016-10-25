@@ -1,9 +1,10 @@
 <?php
+
 require_once 'connection.php';
 $name = $_POST['name'];
 if (!empty($name)) {
     $name = mysqli_real_escape_string($conn, $name);
-    $sql = "SELECT * FROM company WHERE name like '%" . $name . "%' and booths in ('1650', '1554', '1550', '1451', '753', '1051')";
+    $sql = "SELECT * FROM company WHERE name like '%" . $name . "%' and booths in ('1650', '1554', '1550', '1451', '753', '1051', '329,331,333')";
 } else {
     $sql = "SELECT * FROM company where booths in ('1650', '1554', '1550', '1451', '753', '1051')";
 }
@@ -24,7 +25,11 @@ if ($num_rows > 0) {
             echo '<ul class="area-links">';
             $x = $x * 2;
         }
-        echo "<li data-area='area" . $row['booths'] . "'><span>" . $row['name'] . "</span><span style='display:none;'>". $row['booths'] . "</span></li>";
+        $booths = '';
+        foreach (explode(',', $row['booths']) as $b) {
+            $booths .= "#area" . $b . ", ";
+        }
+        echo "<li data-area='" . rtrim($booths, ", ") . "'><span>" . $row['name'] . "</span><span style='display:none;'>" . $row['booths'] . "</span></li>";
         $i++;
     }
     echo '</ul>';
