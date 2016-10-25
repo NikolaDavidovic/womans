@@ -1,3 +1,4 @@
+<?php require_once 'connection.php'; ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,4 +11,3 @@
     </head>
     <body>
         <!----------------------PAGE CONTENT------------------------->
-        

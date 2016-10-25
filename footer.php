@@ -16,3 +16,5 @@
         <script type="text/javascript" src="js/maphilight-trigger.js"></script>
     </body>
 </html>
+
+<?php mysqli_close($conn); ?>

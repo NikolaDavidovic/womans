@@ -74,6 +74,8 @@ body {
 .map-wrapper .area-links {
     list-style: none;
     padding: 25px;
+    display: inline-table;
+    width: 33%;
 }
 
 .map-wrapper .area-links li {
