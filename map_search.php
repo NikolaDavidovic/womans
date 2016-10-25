@@ -24,7 +24,7 @@ if ($num_rows > 0) {
             echo '<ul class="area-links">';
             $x = $x * 2;
         }
-        echo "<li data-area='#" . $row['booths'] . "'><span>" . $row['name'] . "</span></li>";
+        echo "<li data-area='area" . $row['booths'] . "'><span>" . $row['name'] . "</span></li>";
         $i++;
     }
     echo '</ul>';

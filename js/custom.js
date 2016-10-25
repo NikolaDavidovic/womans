@@ -6,6 +6,7 @@ $('#company_search_input').unbind('focusout').bind('focusout', function () {
         type: "post",
         success: function (html) {
             $this.closest('.map-wrapper').find('.links-wrapper').hide().html(html).fadeIn("slow");
+            bindClickEventOverLinks();
         }
     });
 });
