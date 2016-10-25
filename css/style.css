@@ -78,8 +78,30 @@ body {
     width: 33%;
 }
 
-.map-wrapper .area-links li {
+.map-wrapper .area-links li span {
     padding: 0px;
     margin: 2px;
     cursor: pointer;
+}
+
+.map-wrapper #company_search_input {
+    display: block;
+    margin: 25px 25px 3px 25px;
+    background: #ffeff6 none repeat scroll 0 0;
+    border: 1px solid #ffc2dc;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px #ffd5e7 inset;
+    color: #f072a9;
+    font-size: 14px;
+    height: 45px;
+    outline: 0 none;
+    padding: 0 8px;
+    width: 100%;
+}
+
+.map-wrapper small {
+    display: block;
+    padding-left: 32px;
+    color: gray;
+    font-size: 10px;
 }
