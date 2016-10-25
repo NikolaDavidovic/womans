@@ -26,6 +26,6 @@ $('#scroll_to_map').bind('click', function () {
 
 $('#scroll_to_search').bind('click', function () {
     $('html, body').animate({
-        scrollTop: $("#scroll_to_search").offset().top
+        scrollTop: $("#scroll_to_map").offset().top
     }, 1000);
 });
