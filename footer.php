@@ -7,7 +7,7 @@
 
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
         <script type="text/javascript" src="js/keyboard.js"></script>
         <script type="text/javascript" src="js/keyboard-trigger.js"></script>
         <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
