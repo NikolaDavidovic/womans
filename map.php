@@ -24,7 +24,7 @@
                 echo '<ul class="area-links">';
                 $x = $x * 2;
             }
-            echo "<li data-area='area" . $row['booths'] . "'><span>" . $row['name'] . "</span></li>";
+            echo "<li data-area='area" . $row['booths'] . "'><span>" . $row['name'] . "</span><span style='display:none;'>". $row['booths'] . "</span></li>";
             $i++;
         }
         echo '</ul>';

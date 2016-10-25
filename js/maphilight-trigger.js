@@ -7,7 +7,7 @@ function bindClickEventOverLinks() {
         $('html, body').animate({
             scrollTop: $("#scroll_to_search").offset().top
         }, 1000);
-        $('.map-wrapper h4').text($(this).text());
+        $('.map-wrapper h4').text($(this).text() + " (" + $(this).parent().find(":last-child").text() + ")");
         $('[id^="area"]').mouseout();
         $("#" + $(this).parent().data('area')).mouseover();
     });
