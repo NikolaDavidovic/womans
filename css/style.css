@@ -69,7 +69,6 @@ body {
 
 .map-wrapper h4 {
     color: #5e2e85;
-    margin-left: 27px;
 }
 
 .map-wrapper .area-links {
@@ -116,8 +115,11 @@ body {
 .fast_scroll {
     color: #5e2e85;
     cursor: pointer;
-    margin: 15px;
     text-decoration: underline;
+}
+
+#scroll_to_map {
+    margin: 15px;
 }
 
 .slider-img {
