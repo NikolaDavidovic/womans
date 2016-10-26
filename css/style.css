@@ -42,7 +42,7 @@ body {
     margin-top: -200px;
     position: absolute;
     z-index: 10;
-    width: 40% !important;
+    width: 633px !important;
     margin-left: 220px !important;
     border: 1px solid #5E2E85 !important;
 }
@@ -150,4 +150,18 @@ body {
     text-align: center;
     background: #D6C7E3 !important;
     margin-top: 200px !important;
+}
+
+.flip {
+    animation: rotate 7s infinite;
+}
+
+.flip1 {
+    animation: rotate 5s infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotateX(360deg);
+    }
 }

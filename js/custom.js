@@ -1,5 +1,6 @@
 $('.newsletter').keyboard({
     layout: 'qwerty',
+    usePreview: false,
     css: {
         // input & preview
         input: 'form-control input-sm',
