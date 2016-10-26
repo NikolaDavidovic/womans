@@ -71,6 +71,10 @@ body {
     color: #5e2e85;
 }
 
+#last_mouseover_id {
+    display: none;
+}
+
 .map-wrapper .area-links {
     list-style: none;
     padding: 10px;

@@ -8,22 +8,20 @@
     <p id="scroll_to_search" class="fast_scroll">Scroll to the searchbox</p>
 
     <h4>&nbsp;</h4>
+    <span id="last_mouseover_id"></span>
     <img id="map-img" class="map" src="img/map.jpg" usemap="#map" width="1080" height="787" orgWidth="1080" orgHeight="787" alt="map-img" />
 
     <map name="map">
-        <area id="area1650" title="" href="" shape="rect" coords="111,33,168,51" />
-        <area id="area1554" title="" href="" shape="rect" coords="208,33,226,51" />
-        <area id="area1550" title="" href="" shape="rect" coords="246,33,264,51" />
-        <area id="area1451" title="" href="" shape="rect" coords="265,33,283,51" />
-        <area id="area753" title="" href="" shape="rect" coords="685,33,703,51" />
-        <area id="area1051" title="" href="" shape="rect" coords="533,33,570,51" />
-        <area id="area329" title="" href="" shape="rect" coords="896,244,915,262"/>
-        <area id="area331" title="" href="" shape="rect" coords="896,225,914,243"/>
-        <area id="area333" title="" href="" shape="rect" coords="896,206,914,224"/>
+        <?php
+        $sql = "SELECT * FROM booth_coordinates";
+        $result = mysqli_query($conn, $sql);
+        while ($row = mysqli_fetch_assoc($result)) {
+            echo '<area id="area' . $row['booth'] . '" title="" href="" shape="rect" coords="' . $row['coordinates'] . '"/>';
+        }
+        ?>
     </map>
 
     <!------------END MAP AREA------------>
-
 
 
 
@@ -35,8 +33,7 @@
     <small>(after you type in a name, click outside of the box to start searching)</small>
 
     <?php
-//    $sql = "SELECT * FROM company";
-    $sql = "SELECT * FROM company where booths in ('1650', '1554', '1550', '1451', '753', '1051', '329,331,333')"; //the booths are hardcoded for the testing purpose
+    $sql = "SELECT * FROM company";
     $result = mysqli_query($conn, $sql);
 
     $num_rows = mysqli_num_rows($result);
