@@ -8,13 +8,13 @@
 <div class="row" style="margin-top: 20px;">
     <div class="col-md-6 pages"> 
         <a href="speakers.php">
-            <img src="img/speakers.jpg" alt="speakers"/>
+            <img src="img/speakers.jpg" alt="speakers" class="flip"/>
         </a>
     </div>
 
     <div class="col-md-6 pages"> 
         <a href="map.php">
-            <img src="img/mapping.jpg" class="left-img" alt="speakers"/>
+            <img src="img/mapping.jpg" class="left-img flip1" alt="speakers"/>
         </a>
     </div>
 </div>
@@ -22,13 +22,13 @@
 <div class="row">
     <div class="col-md-6 pages"> 
         <a href="sponsors.php">
-            <img src="img/sponsors.jpg" class="sponsors-img" alt="speakers"/>
+            <img src="img/sponsors.jpg" class="sponsors-img flip1" alt="speakers"/>
         </a>
     </div>
 
     <div class="col-md-6 pages"> 
         <a href="speakers.php">
-            <img src="img/sch.jpg" class="left-img" alt="speakers"/>
+            <img src="img/sch.jpg" class="left-img flip" alt="speakers"/>
         </a>
     </div>
 </div>
