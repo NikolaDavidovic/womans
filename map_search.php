@@ -1,12 +1,11 @@
 <?php
-
 require_once 'connection.php';
 $name = $_POST['name'];
 if (!empty($name)) {
     $name = mysqli_real_escape_string($conn, $name);
-    $sql = "SELECT * FROM company WHERE name like '%" . $name . "%' and booths in ('1650', '1554', '1550', '1451', '753', '1051', '329,331,333')";
+    $sql = "SELECT * FROM company WHERE name like '%" . $name . "%' and booths in ('1650', '1554', '1550', '1451', '753', '1051', '329,331,333')"; //the booths are hardcoded for the testing purpose
 } else {
-    $sql = "SELECT * FROM company where booths in ('1650', '1554', '1550', '1451', '753', '1051')";
+    $sql = "SELECT * FROM company where booths in ('1650', '1554', '1550', '1451', '753', '1051')"; //the booths are hardcoded for the testing purpose
 }
 
 $result = mysqli_query($conn, $sql);

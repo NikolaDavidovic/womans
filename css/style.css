@@ -86,7 +86,6 @@ body {
 
 .map-wrapper #company_search_input {
     display: block;
-    margin: 0;
     background: #ffeff6 none repeat scroll 0 0;
     border: 1px solid #ffc2dc;
     border-radius: 3px;
@@ -119,7 +118,7 @@ body {
 }
 
 #scroll_to_map {
-    margin: 15px;
+    margin: 50px 15px 15px 0;
 }
 
 .slider-img {
