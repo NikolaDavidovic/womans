@@ -35,6 +35,7 @@
     <small>(after you type in a name, click outside of the box to start searching)</small>
 
     <?php
+//    $sql = "SELECT * FROM company";
     $sql = "SELECT * FROM company where booths in ('1650', '1554', '1550', '1451', '753', '1051', '329,331,333')"; //the booths are hardcoded for the testing purpose
     $result = mysqli_query($conn, $sql);
 
