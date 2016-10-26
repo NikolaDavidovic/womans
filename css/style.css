@@ -111,6 +111,10 @@ body {
     margin-top: 20px;
 }
 
+.map-wrapper .map {
+    margin-left: -15px;
+}
+
 .fast_scroll {
     color: #5e2e85;
     cursor: pointer;
