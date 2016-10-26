@@ -8,7 +8,7 @@
     <p id="scroll_to_search" class="fast_scroll">Scroll to the searchbox</p>
 
     <h4>&nbsp;</h4>
-    <img id="map-img" class="map" src="img/map.jpg" usemap="#map" width="1080" height="577" orgWidth="1686" orgHeight="900" alt="map-img" />
+    <img id="map-img" class="map" src="img/map.jpg" usemap="#map" width="1080" height="787" orgWidth="1080" orgHeight="787" alt="map-img" />
 
     <map name="map">
         <area id="area1650" title="" href="" shape="rect" coords="111,33,168,51" />
