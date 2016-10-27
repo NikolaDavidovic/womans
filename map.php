@@ -1,15 +1,16 @@
 <?php require_once 'header.php'; ?>
 
-<div class="map-wrapper">
+<!------------MAP AREA------------>
 
-
-    <!------------MAP AREA------------>
-
+<div class="img-wrapper">
     <p id="scroll_to_search" class="fast_scroll">Scroll to the searchbox</p>
-
     <h4>&nbsp;</h4>
     <span id="last_mouseover_id"></span>
     <img id="map-img" class="map" src="img/map.jpg" usemap="#map" width="1080" height="787" orgWidth="1080" orgHeight="787" alt="map-img" />
+</div>
+
+
+<div class="map-wrapper">
 
     <map name="map">
         <?php
@@ -63,7 +64,7 @@
     }
     ?>
 
-    <!------------END COMPANIES AREA------------>
+<!------------END COMPANIES AREA------------>
 
 
 </div>

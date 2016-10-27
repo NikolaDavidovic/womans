@@ -67,7 +67,7 @@ body {
     padding: 15px;
 }
 
-.map-wrapper h4 {
+.img-wrapper h4 {
     color: #5e2e85;
 }
 
@@ -113,10 +113,6 @@ body {
     display: block;
     font-weight: bold;
     margin-top: 20px;
-}
-
-.map-wrapper .map {
-    margin-left: -15px;
 }
 
 .fast_scroll {

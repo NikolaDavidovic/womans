@@ -33,7 +33,7 @@ function bindClickEventOverLinks() {
         $('ul.area-links li span').css('color', 'black');
         $(this).css('color', '#5e2e85');
         animateToElem($("#scroll_to_search"));
-        $('.map-wrapper h4').text($(this).text() + " (" + $(this).parent().find(":last-child").text() + ")");
+        $('.img-wrapper h4').text($(this).text() + " (" + $(this).parent().find(":last-child").text() + ")");
         if ($('#last_mouseover_id').text().length > 0) {
             $($('#last_mouseover_id').text()).mouseout();
         }
