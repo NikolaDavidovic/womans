@@ -27,7 +27,7 @@
     </div>
 
     <div class="col-md-6 pages"> 
-        <a href="speakers.php">
+        <a href="schedule.php">
             <img src="img/sch.jpg" class="left-img flip" alt="speakers"/>
         </a>
     </div>
