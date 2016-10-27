@@ -56,6 +56,15 @@ body {
     margin-left: 280px;
 }
 
+.header-text1 {
+    margin-top: -250px;
+    position: absolute;
+    z-index: 10;
+    color: #5E2E85; 
+    font-size: 22px;
+    margin-left: 280px;
+}
+
 .ui-keyboard.center-block.dropdown-menu.ui-keyboard-has-focus {
     width: 635px;
     margin-top: 378px;
@@ -158,6 +167,47 @@ body {
 
 .flip1 {
     animation: rotate 5s infinite;
+}
+
+.stage {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5E2E85;
+    margin-top: 30px;
+}
+
+.day {
+    border-left: 1px solid #5E2E85;
+}
+
+.time {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #5E2E85;
+    text-align: center;
+}
+
+.name {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #5E2E85;
+    text-align: center;
+}
+
+.author {
+    font-size: 14px;
+    color: #5E2E85;
+    text-align: center;
+}
+
+.stage {
+    font-size: 32px;
+    font-weight: bold;
+    color: #5E2E85;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 @keyframes rotate {
