@@ -3,7 +3,6 @@
 <!------------MAP AREA------------>
 
 <div class="img-wrapper">
-    <p id="scroll_to_search" class="fast_scroll">Scroll to the searchbox</p>
     <h4>&nbsp;</h4>
     <span id="last_mouseover_id"></span>
     <img id="map-img" class="map" src="img/map.jpg" usemap="#map" width="1080" height="787" orgWidth="1080" orgHeight="787" alt="map-img" />
@@ -28,10 +27,8 @@
 
     <!------------COMPANIES AREA------------>
 
-    <p id="scroll_to_map" class="fast_scroll">Scroll to the map</p>    
-
+    <button id="submit_search">Search</button>
     <input type="text" id="company_search_input" placeholder="Search here by company name..." />
-    <small>(after you type in a name, click outside of the box to start searching)</small>
 
     <?php
     $sql = "SELECT * FROM company";

@@ -56,15 +56,10 @@ body {
     margin-left: 280px;
 }
 
-.ui-keyboard.center-block.dropdown-menu.ui-keyboard-has-focus {
-    width: 635px;
-    margin-top: 378px;
-    margin-left: 219px;
-}
-
 .map-wrapper {
     width: 1080px;
-    padding: 15px;
+    padding: 10px;
+    margin-top: 30px;
 }
 
 .img-wrapper h4 {
@@ -88,41 +83,39 @@ body {
     cursor: pointer;
 }
 
-.map-wrapper #company_search_input {
-    display: block;
-    background: #ffeff6 none repeat scroll 0 0;
-    border: 1px solid #ffc2dc;
-    border-radius: 3px;
-    box-shadow: 1px 1px 4px #ffd5e7 inset;
-    color: #f072a9;
+.map-wrapper #company_search_input,
+.map-wrapper #submit_search {
+    padding: 0 8px;
     font-size: 14px;
     height: 45px;
     outline: 0 none;
-    padding: 0 8px;
-    width: 100%;
+    border: 1px solid #ffc2dc;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px #ffd5e7 inset;
+    display: inline-block;
 }
 
-.map-wrapper small {
-    display: block;
-    margin-left: 5px;
-    color: gray;
-    font-size: 10px;
+.map-wrapper #company_search_input {
+    background: #ffeff6 none repeat scroll 0 0;
+    color: #f072a9;
+    width: 88%;
+}
+
+.map-wrapper #submit_search {
+    background: #5e2e85;
+    color: #fff;
+    width: 10%;
+}
+
+.map-wrapper .links-wrapper {
+    height: 500px;
+    overflow-y: auto;
 }
 
 .map-wrapper .links-wrapper > span {
     display: block;
     font-weight: bold;
     margin-top: 20px;
-}
-
-.fast_scroll {
-    color: #5e2e85;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-#scroll_to_map {
-    margin: 50px 15px 15px 0;
 }
 
 .slider-img {
