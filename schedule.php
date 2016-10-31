@@ -418,4 +418,200 @@
 
 </div>
 
+
+<!--END OF THIRD STAGE-->
+
+
+<div class="container-fluid">
+    <p class="stage text-center"> HEALTH & WELLNESS STAGE </p>
+
+    <div class="col-md-4"> <p class="stage text-center"> FRIDAY </p>
+        <p class="time"> 12:30 p.m. </p>
+        <p class="name"> Women's Hair Loss &
+            Hair Restortion </p>
+        <p class="author"> Shaina Osborne and Tina Lewis </p>
+        <p class="author"> HAIR CLUB </p>
+        <br/>
+
+        <p class="time"> 1:15 p.m. </p>
+        <p class="name"> The Clean Beauty Revolution </p>
+        <p class="author"> Lisa Mattam </p>
+        <p class="author"> SAJAHAN </p>
+        <br/>
+
+        <p class="time"> 2:00 p.m. </p>
+        <p class="name"> Herbamax Natural Sexual
+            Desire for Women </p>
+        <p class="author"> Roman Olechno </p>
+        <br/>
+
+        <p class="time"> 3:30 p.m. </p>
+        <p class="name"> How to Improve
+            Women's Sleep Health </p>
+        <p class="author"> Alanna McGinn</p>
+        <p class="author"> GOOD NIGHT SLEEP SITE</p>
+        <br/>
+
+        <p class="time"> 4:15 p.m. </p>
+        <p class="name"> Magic Banana: Explore
+            Happiness Within </p>
+        <p class="author"> Wanda Cotie </p>
+        <p class="author"> WICKED WANDA'S </p>
+        <br/>
+
+        <p class="time"> 5:00 p.m. </p>
+        <p class="name"> Spiritual Wisdom on
+            Relationships </p>
+        <p class="author"> Jane Durst </p>
+        <p class="author"> ECKANKAR CANADA </p>
+        <br/>
+
+        <p class="time"> 5:45 p.m. </p>
+        <p class="name"> Women's Mysteries
+            and Sacred Sounds </p>
+        <p class="author"> Gaisheda Khaewok </p>
+        <p class="author"> WHISPERING SONG SCHOOL
+            OF ENERGY MEDICINE </p>
+        <br/>
+
+        <p class="time"> 6:30 p.m. </p>
+        <p class="name"> Tips for a Healthy and
+            Wealthy Retirement </p>
+        <p class="author"> John Sacke </p>
+        <p class="author"> BMO </p>
+        <br/>
+
+        <p class="time"> 7:15 p.m. </p>
+        <p class="name"> Coolsculpting: The Non
+            Surgical Way of Losing
+            Unwanted Fat </p>
+        <p class="author"> Dr. Dr Golbarg Araghi </p>
+        <p class="author"> INNOVA MED SPA </p>
+        <br/>
+    </div>
+
+    <div class="col-md-4 day"> <p class="stage text-center"> SATURDAY </p> 
+        <p class="time"> 11:15 a.m. </p>
+        <p class="name"> The New Standard in Global
+            Beauty- Enhancement and
+            Rejuvenation with
+            Cosmetic Medicine </p>
+        <p class="author">Dr. Jennifer Pearlman </p>
+        <p class="author"> PROLLENIUM </p>
+        <br/>
+
+        <p class="time"> 11:15 a.m. </p>
+        <p class="name"> Brain Health for
+            Adults and Kids </p>
+        <p class="author">Dr. Joyce Johnson </p>
+        <p class="author"> WN PHARMACEUTICALS </p>
+        <br/>
+
+        <p class="time"> 12:00 p.m. </p>
+        <p class="name"> Creating Happiness
+            and Longevity with
+            Anti-inflammatory Nutrition </p>
+        <p class="author">Julie Daniluk </p>
+        <p class="author"> NATURE'S WAY CANADA </p>
+        <br/>
+
+        <p class="time"> 12:45 p.m. </p>
+        <p class="name"> The Science of Being Happy! </p>
+        <p class="author">Dr. Scott Levine </p>
+        <p class="author"> VITA HEALTH CLINIC </p>
+        <br/>
+
+        <p class="time"> 1:30 p.m. </p>
+        <p class="name"> There's a Style
+            for Every Curl! </p>
+        <p class="author">Jonathan Torch </p>
+        <p class="author"> CURLY HAIR SOLUTIONS </p>
+        <br/>
+
+        <p class="time"> 2:15 p.m. </p>
+        <p class="name"> Create Your Ideal
+            Body Shape </p>
+        <p class="author">Melissa Tucker, RHN, RCPT,
+            NLPP< CBP </p>
+        <p class="author"> CANADIAN SCHOOL OF NATURAL NUTRITION </p>
+        <br/>
+
+        <p class="time"> 3:00 p.m. </p>
+        <p class="name"> What is Egg Health? Taking
+            Control of Your Fertility </p>
+        <p class="author">Dan Nayot MD, M.SC, FRCS </p>
+        <p class="author"> OVASCIENCE </p>
+        <br/>
+
+        <p class="time"> 3:45 p.m. </p>
+        <p class="name"> Cut Your Hair Routine Down
+            to 7 Minutes </p>
+        <p class="name"> </p>
+        <p class="author">Jessica Watson </p>
+        <p class="author"> PONYDRY </p>
+        <br/>
+
+        <p class="time"> 4:30 p.m. </p>
+        <p class="name"> Follow Your Bliss </p>
+        <p class="author">Lora Lisi </p>
+        <p class="author"> BLISS OM </p>
+        <br/>
+
+        <p class="time"> 5:15 p.m. </p>
+        <p class="name"> Jouviance for
+            Health & Beauty </p>
+        <p class="author">Guita Saraei </p>
+        <p class="author"> JOUVIANCE </p>
+        <br/>
+    </div>
+    <div class="col-md-4 day"> <p class="stage text-center"> SUNDAY </p> 
+        <p class="time"> 10:30 a.m. </p>
+        <p class="name"> Missing the Picture </p>
+        <p class="author">Dr. Sean Wharton, Dr. Arya Sharma
+            and Jodi Krah </p>
+        <p class="author"> OBESITY NETWORK </p>
+        <br/>
+
+        <p class="time"> 11:15 a.m. </p>
+        <p class="name"> The Ultimate Brow Tutorial </p>
+        <p class="author">Illona Alfaro & Jessica Lloyd </p>
+        <p class="author"> LLOYD ALFARO </p>
+        <br/>
+
+        <p class="time"> 12:00 p.m. </p>
+        <p class="name"> Pole Fit: Pole Dancing
+            Your Way to Fitness! </p>
+        <p class="author">Joanne Huynh</p>
+        <p class="author"> REDEFINE FIT LTD </p>
+        <br/>
+
+        <p class="time"> 12:45 p.m. </p>
+        <p class="name"> Hollistic Nutrution 101</p>
+        <p class="author">Jesse Lane Lee CNP</p>
+        <p class="author"> INSTITUTE OF HOLISTIC NUTRITION </p>
+        <br/>
+
+        <p class="time"> 2:15 p.m. </p>
+        <p class="name"> What is Egg Health? Taking
+            Control of Your Fertility </p>
+        <p class="author">Dan Nayot MD, M.SC, FRCS </p>
+        <p class="author"> OVASCIENCE </p>
+        <br/>
+
+        <p class="time"> 3:00 p.m. </p>
+        <p class="name"> "TBD" </p>
+        <p class="author">Sonya Budd </p>
+        <p class="author"> VIP BREAST IMAGING </p>
+        <br/>
+
+        <p class="time"> 3:45 p.m. </p>
+        <p class="name"> Safe Medical Tourism
+            In Cancun with
+            My Medical Vacations </p>
+        <p class="author">Andres Jurado </p>
+        <p class="author">MY MEDICAL VACATIONS </p>
+        <br/>
+    </div>
+</div>
+
 <?php require_once 'footer.php'; ?>

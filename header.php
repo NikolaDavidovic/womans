@@ -18,6 +18,9 @@
                 <img src="img/logo.png" alt="logo" class="homepage-logo"/>
             </a>
             <p class="header-text1"> FOR FURTHER INFORMATION LEAVE YOUR EMAIL </p>
-            <input type="email" class="form-control newsletter"/>
+            <form action="mail.php" method="post">
+                <input type="email" class="form-control newsletter" name="email"/>
+                <button type="submit" class="btn btn-info form-btn"> SEND </button>
+            </form>
             <p class="header-text"> PRESS THE TEXT BOX AND A KEYBOARD WILL APPEAR </p>
         </div>
