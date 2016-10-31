@@ -102,14 +102,14 @@
         <p class="author">Kiran Kitaria & Rishi Kataria, </p>
         <p class="author"> KFI FOODS </p>
         <br/>
-        
+
         <p class="time"> 4:30 p.m. </p>
         <p class="name"> Everyone Deserves
-Quality Food </p>
+            Quality Food </p>
         <p class="author">Jihad Sarout </p>
         <p class="author"> FONTAINE SANTE </p>
         <br/>
-        
+
         <p class="time"> 5:15 p.m. </p>
         <p class="name"> Quick and Easy Meals </p>
         <p class="author">Rani Glick </p>
@@ -122,60 +122,60 @@ Quality Food </p>
         <p class="author">Jules Lieff </p>
         <p class="author"> ORGANIC GARAGE </p>
         <br/>
-        
+
         <p class="time"> 11:15 a.m. </p>
         <p class="name"> Ladies Brunch with
-Canadian Chicken </p>
+            Canadian Chicken </p>
         <p class="author">Kelly Atyeo-Fick </p>
         <p class="author"> FARMERS OF CANADA </p>
         <br/>
-        
+
         <p class="time"> 12:00 p.m. </p>
         <p class="name"> The Kirkwood
-Diamond Group </p>
+            Diamond Group </p>
         <br/>
-        
+
         <p class="time"> 12:45 p.m. </p>
         <p class="name"> SPONSORED BY
             Nature's Path </p>
         <br/>
-        
+
         <p class="time"> 3:00 p.m. </p>
         <p class="name"> Unlock Your Inner Chef </p>
         <p class="author">Ms. Charlotte Lemaire </p>
         <p class="author"> MAISON ORPHÉE </p>
         <br/>
-        
+
         <p class="time"> 3:45 p.m. </p>
         <p class="name"> Good Food for Good Health </p>
         <p class="author">Rani Glick </p>
         <p class="author"> THE WELLNESS WAGON </p>
         <br/>
     </div>
-    </div>
+</div>
 
 
-    <!--END OF FIRST STAGE-->
-    
-    
-    
-    <div class="container-fluid">
-        <div class="col-md-12" style="margin-top: 50px;"> &nbsp; </div>
-        <p class="stage text-center"> GLAM RUNWAY </p>
+<!--END OF FIRST STAGE-->
+
+
+
+<div class="container-fluid">
+    <div class="col-md-12" style="margin-top: 50px;"> &nbsp; </div>
+    <p class="stage text-center"> GLAM RUNWAY </p>
 
     <div class="col-md-4"> <p class="stage text-center"> FRIDAY </p>
         <p class="time"> 12:30 p.m. </p>
         <p class="name"> Accessories For
-Your Lifestyle </p>
+            Your Lifestyle </p>
         <p class="author"> Franca Fasulo </p>
         <p class="author"> SAYAN Inc. </p>
         <br/>
 
         <p class="time"> 1:15 p.m. </p>
         <p class="name"> Designer Umbrella Show
-Fashion Show </p>
+            Fashion Show </p>
         <p class="author"> 
-La Bella Umbrella </p>
+            La Bella Umbrella </p>
         <br/>
 
         <p class="time"> 2:00 p.m. </p>
@@ -185,13 +185,13 @@ La Bella Umbrella </p>
 
         <p class="time"> 2:45 p.m. </p>
         <p class="name"> The Unexpected Art to Wear
-Fashion Show </p>
+            Fashion Show </p>
         <p class="author"> Heather Chapplain </p>
         <br/>
 
         <p class="time"> 3:30 p.m. </p>
         <p class="name"> Breast Rest: Make Wearing
-a Bra Comfortable </p>
+            a Bra Comfortable </p>
         <p class="author"> Jody Harbou </p>
         <p class="author"> Breast Rest </p>
         <br/>
@@ -214,7 +214,7 @@ a Bra Comfortable </p>
 
         <p class="time"> 12:45 p.m. </p>
         <p class="name"> Retail Therapy
-Fashion Show </p>
+            Fashion Show </p>
         <p class="author">Daniela Schmidt </p>
         <br/>
 
@@ -226,7 +226,7 @@ Fashion Show </p>
 
         <p class="time"> 2:15 p.m. </p>
         <p class="name"> Tofara - An Afro
-Chic Experience </p>
+            Chic Experience </p>
         <p class="author"> Eriver Muwanguzi </p>
         <p class="author"> Tofara </p>
         <br/>
@@ -241,44 +241,181 @@ Chic Experience </p>
         <p class="name"> C.C By Corinne Campenio </p>
         <p class="author">Jessica Hoffman </p>
         <br/>
-        
+
         <p class="time"> 4:30 p.m. </p>
         <p class="name"> Breast Rest: Make Wearing
-a Bra Comfortable </p>
+            a Bra Comfortable </p>
         <p class="author">Jody Harbour </p>
         <p class="author"> Breast Rest </p>
         <br/>
-        
+
     </div>
-        
+
     <div class="col-md-4 day"> <p class="stage text-center"> SUNDAY </p> 
         <p class="time"> 10:30 a.m. </p>
         <p class="name"> Designer Umbrella Show
-Fashion Show </p>
+            Fashion Show </p>
         <p class="author">La Bella Umbrella </p>
         <br/>
-        
+
         <p class="time"> 12:00 p.m. </p>
         <p class="name"> CC by Corrine - Fall
-Accessory Collection </p>
+            Accessory Collection </p>
         <p class="author">Corinne Campenio </p>
         <br/>
-        
+
         <p class="time"> 12:45 p.m. </p>
         <p class="name"> Breast Rest: Make Wearing
-a Bra Comfortable </p>
+            a Bra Comfortable </p>
         <p class="author">Jody Harbour </p>
         <p class="author">Breast Rest </p>
         <br/>
-        
+
         <p class="time"> 3:00 p.m. </p>
         <p class="name"> Accessories For
-Your Lifestyle </p>
+            Your Lifestyle </p>
         <p class="author">Franca Fasulo </p>
         <p class="author">SAYAN Inc </p>
         <br/>
     </div>
-    
+
+</div>
+
+
+<!--END OF SECOND STAGE-->
+
+
+<div class="container-fluid">
+    <div class="col-md-12" style="margin-top: 50px;"> &nbsp; </div>
+    <p class="stage text-center"> MAIN STAGE </p>
+
+    <div class="col-md-4"> <p class="stage text-center"> FRIDAY </p>
+        <p class="time"> 12:30 p.m. </p>
+        <p class="name"> NIKO </p>
+        <br/>
+
+        <p class="time"> 1:15 p.m. </p>
+        <p class="name"> The Kirkwood Diamond Group </p>
+        <br/>
+
+        <p class="time"> 2:00 p.m. </p>
+        <p class="name"> NARCES Couture </p>
+        <p class="author"> Fashion Show </p>
+        <br/>
+
+        <p class="time"> 3:30 p.m. </p>
+        <p class="name"> The Most Revolutionary Pant
+            in the World ... Keeping You
+            SLIM and Fashionable! </p>
+        <p class="author"> Nygård Slims by Peter Nygård Fashion Show </p>
+        <br/>
+
+        <p class="time"> 5:45 p.m. </p>
+        <p class="name"> "Triple Flip Fashion Show: Empowering
+            Girls to Be Strong & Confident" </p>
+        <p class="author"> in support of the Canadian Women's Foundation
+            WN </p>
+        <br/>
+
+        <p class="time"> 6:30 p.m. </p>
+        <p class="name"> Fashion on Fire with Banana Republic
+            and the Toronto Firefighters,
+            Princess Margaret </p>
+        <br/>
+
+        <br/>
+    </div>
+
+    <div class="col-md-4 day"> <p class="stage text-center"> SATURDAY </p> 
+
+        <p class="time"> 11:45 a.m. </p>
+        <p class="name"> The ALL NEW NWS Dating Game with
+            Dingle in the City's Laura Bilotta </p>
+        <br/>
+
+        <p class="time"> 12:45 p.m. </p>
+        <p class="name"> A Holistic Approach to
+            Health and Happiness </p>
+        <p class="author">Holistic Nutritionist,
+            Michelle Book </p>
+        <p class="author">SPONSORED BY <b>chfa</b> </p>
+        <br/>
+
+        <p class="time"> 1:30 p.m. </p>
+        <p class="name"> "My Inner Power: Family, Fertility, &
+            What 'Having It All' Really Means" with
+            Kyra Phillips, Author & CNN
+            Correspondent, OvaScience </p>
+        <br/>
+
+        <p class="time"> 2:15 p.m. </p>
+        <p class="name"> Prepare to be Amazed
+            and Mesmerized by the
+            International Clairvoyant
+            Medium! - Marc Jade </p>
+        <br/>
+
+        <p class="time"> 3:00 p.m. </p>
+        <p class="name"> The Most Revolutionary Pant
+            in the World ... Keeping You
+            SLIM and Fashionable! </p>
+        <p class="author"> Nygård Slims by Peter Nygård Fashion Show </p>
+        <br/>
+
+        <p class="time"> 3:45 p.m. </p>
+        <p class="name"> "An Evening of Fashion"
+            with NARCES </p>
+        <br/>
+
+        <p class="time"> 4:30 p.m. </p>
+        <p class="name"> Fashion on Fire with Banana Republic
+            and the Toronto Firefighters,
+            Princess Margaret </p>
+        <br/>
+
+    </div>
+
+    <div class="col-md-4 day"> <p class="stage text-center"> SUNDAY </p> 
+        <p class="time"> 11:15 a.m. </p>
+        <p class="name"> NARCES Couture Fashion Show </p>
+        <br/>
+
+        <p class="time"> 12:00 p.m. </p>
+        <p class="name"> "My Inner Power: Family, Fertility, &
+            What 'Having It All' Really Means" with
+            Kyra Phillips, Author & CNN
+            Correspondent, OvaScience </p>
+        <br/>
+
+        <p class="time"> 12:45 p.m. </p>
+        <p class="name"> A Holistic Approach to
+            Health and Happiness
+            Holistic Nutritionist,
+            Michelle Book </p>
+        <p class="author">SPONSORED BY <b>chfa</b> </p>
+        <br/>
+
+        <p class="time"> 1:30 p.m. </p>
+        <p class="name"> See Long-Time Soap
+            Star, and one of
+            People's Sexiest,
+            Don Diamont LIVE! </p>
+        <br/>
+
+        <p class="time"> 3:00 p.m. </p>
+        <p class="name"> The Most Revolutionary Pant
+            in the World ... Keeping You
+            SLIM and Fashionable! </p>
+        <p class="author"> Nygård Slims by Peter Nygård Fashion Show </p>
+        <br/>
+
+        <p class="time"> 3:45 p.m. </p>
+        <p class="name"> Fashion on Fire with Banana Republic
+            and the Toronto Firefighters,
+            Princess Margaret </p>
+        <br/>
+    </div>
+
 </div>
 
 <?php require_once 'footer.php'; ?>
